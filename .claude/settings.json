@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"${CLAUDE_PROJECT_DIR:-.}/.claude/check_rules_loaded.py\"",
+            "shell": "bash",
+            "timeout": 15,
+            "statusMessage": "Проверка загрузки правил проекта"
+          }
+        ]
+      }
+    ]
+  }
+}

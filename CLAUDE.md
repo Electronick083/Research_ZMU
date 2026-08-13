@@ -10,6 +10,7 @@
 
 @.claude/memory/MEMORY.md
 @.claude/memory/verify-before-claiming.md
+@.claude/memory/git-commit-only-on-request.md
 @.claude/memory/hardware-branch-separation.md
 @.claude/memory/memory-edits-only-on-disproof.md
 @.claude/memory/memory-location-in-project.md
